@@ -99,16 +99,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://whaohan.github.io"
-    },{
-        title: "简书·BY",
-        href: 
-    },{
-        title: "Apple",
-        href: 
-    },{
-        title: "Apple Developer",
-        href: 
+        title: "clcverYH",
+        href: "http://cleveryh.github.io"
     }
 ]
