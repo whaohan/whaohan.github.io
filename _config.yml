@@ -99,7 +99,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "clcverYH",
+        title: "CleverYh",
         href: "http://cleveryh.github.io"
     }
 ]
