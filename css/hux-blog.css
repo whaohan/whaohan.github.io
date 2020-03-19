@@ -1089,3 +1089,10 @@ img::-moz-selection {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
+
+body {
+  background:url(/img/post-sample-image.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:100% 100%;
+}
