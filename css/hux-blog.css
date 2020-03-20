@@ -278,6 +278,9 @@ pre code {
     padding-left: 20px;
   }
 }
+.post-container{
+  font-size: 18px;
+}
 .post-container ol ol,
 .post-container ol ul,
 .post-container ul ol,
