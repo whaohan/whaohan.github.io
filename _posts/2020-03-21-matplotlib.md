@@ -18,7 +18,9 @@ import matplotlib.pyplot as plt
 
 ```python
 
-plt.plot(x,y,c="color",label="figurename")
+plt.plot(x,y,'color and shape')
+#dot shape . , + o v s p x  
+#line shape - -- -. :  
 
 plt.bar(bar_position,bar_height,bar_width)
 
@@ -42,6 +44,8 @@ plt.xticks(rotation=angle)
 
 plt.yticks(rotation=angle)
 
+plt.grid()
+
 plt.xlim(start,end)
 
 plt.ylim(start,end)
@@ -53,9 +57,8 @@ plt.ylabel("")
 plt.title("")
 
 plt.legend(loc="parameter")
-#parameter:best, upper right, right, lower right, center right
-#          lower center, upper center, center ...
-
+#parameter:best, upper right, right, lower right, center right  
+#          lower center, upper center, center ...  
 
 fig = plt.figure()
 
