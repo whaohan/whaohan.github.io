@@ -13,9 +13,31 @@ tags:
 ---
 ## Linear regression
 
-  线性回归算是机器学习中最简单的模型了吧，在我们高中的时候也学过一元的线性回归，使用的是最小二乘法（也就是我们等下会提到的Normal Equation的简化版本）。
-  线性回归的核心的思想就是使用线性函数或者多项式函数来拟合所获得数据变量，从而使我们的输出和目标输出的差距最小。
-  通常而言，这个模型有两种算法，分别是gradient decent和normal equation。下面给出算法以及简单的python代码的实现
+It seems that linear regerssion is the most easy understanding but also powerful model in machine learning. For our Chinese students, we learn the simplify version in our high school, which is just like the Normal Equation.
+
+The model of linear regression is shown:
+
+$$f(x_{i}) = \sum_{i=1}^{m}(\omega x + b)$$
+
+The cost function is:
+
+$$J(x) = \frac{1}{m}\sum_{i=1}^{m}(f(x_{i}) - y_{i})^2 + \lambda\sum_{i=1}^{m} x$$
+
+The main idea of the linear regression is to find the best parameter $\omega$ to make our cost function to be least. The two main algorithm to calculate the $\omega$ will be shown using python.
 
 ### gradient decent
 
+Since the final goal is to ruduce the cost and let this procedure run as fast as possible, so it is natural to let it go along its gradient. And our algorithm is to update $\omega$ with the gradinet we compute and learning rate $\alpha$ to control its convergence steps.
+
+```python
+
+w = w - alpha * dw
+b = b - alpha * db
+
+```
+
+### normal equation
+
+$$\omega = (X^{T}X)^{-1}X^{T}y$$
+
+With this equation, $\omega$ can be computed easily. However, we should compute the inverse of the matrix, whose complexity is O($n^{3}$). It will take much time if the number of the samples is big. So this method only fit when the data is not very big.
