@@ -49,15 +49,17 @@ With this equation, $\omega$ can be computed easily. However, we should compute 
 
 ## Logistic Regression
 
-In my opinion, logistic regression are similar to the linear regression.
+In my opinion, logistic regression is similar to the linear regression.
 
-While linear regression is expected to output a value fits the model, logistic regression hopes to output a boolean value which determine the event is true or false.
+While linear regression is expected to output a real value to fits the model, logistic regression hopes to output a boolean value which determines the event is true or false. For example, you can use it to determine if there is a cat in a photo.
 
 The difference between them is the cost function, which is:
 
 $$J = - \sum_{i=1}^{m}(y\log{h(x_{i})}+(1-y)\log(1-h(x_{i})))$$
 
 It can show the difference between the prediction of the model $h(x)$ and the lable of the given data in a real number. After that, we can use gradient decent to compute the best parameter $\omega$ and $b$.
+
+Nowadays, it is more and more popular to use a neural network to do the logistic regression, which is more convenient and has higher accuracy. It may be a little different when impairmenting, but the main idea is the same.
 
 ## At the last
 
