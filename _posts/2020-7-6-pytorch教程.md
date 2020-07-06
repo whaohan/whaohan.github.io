@@ -24,25 +24,11 @@ pytorch的结构主要分成三个层次。
 
 第三层是module的认知和使用，其中封装了大量的神经网络的常用模块；
 
-```python
-import torch
-import numpy as np
-```
-
-```python
-x = 3
-y = 4
-array = [x,y]
-ndarray = np.array(array)
-tensor1 = torch.tensor(array)
-n = start = end = step = steps =  4
-```
-
 ### tensor的基本使用
 
 #### tensor构造
 
-可在函数的参数中，添加`dtype = torch.xxx`确定数据类型，Autograd的要求一般是torch.float
+可在函数的参数中，添加`dtype = torch.xxx`确定数据类型(Autograd的要求一般是torch.float)
 
 ```python
 # 初始化空矩阵
@@ -74,7 +60,6 @@ torch.eye(n)
 # steps指个数
 
 torch.linspace(start, end, steps)
-
 # step指距离
 
 torch.arange(start, end, step)
@@ -83,7 +68,7 @@ torch.arange(start, end, step)
 
 torch.logspace(start, end, steps)
 
-# 从已有数据,共享内存空间
+# 从已有数据生成,共享内存空间
 
 torch.tensor(array)
 torch.from_numpy(ndarray)
@@ -118,7 +103,6 @@ torch.mean(tensor1, dim=0)
 # (2,2) + (2,2) = (4,2)
 
 torch.cat((tensor1, tensor2), dim=0)
-
 # 新增一个维度并合并
 
 # (2,2) + (2,2) = (2,2,2)
@@ -129,11 +113,18 @@ torch.stack((tensor1, tensor2, dim=0))
 
 torch.squeeze()
 
+# 添加多余的一个维度
+
+# 多用于预测时为添加一个假的batch序号
+
+torch.unsqueeze(0)
+
 # 调整维度顺序
 
 # 一次调整多个维度
 
 tensor1.premute(2,0,1)  # (1,2,3) -> (3,1,2)
+
 # 一次互换两个维度
 
 tensor1.transpose(0,1)  # (1,2,3) -> (2,1,3)
@@ -151,7 +142,6 @@ tensor.size()
 # 只有一个元素
 
 tensor.item()
-
 # 多个元素
 
 tensor.tolist()
@@ -159,11 +149,11 @@ tensor.tolist()
 
 ### Autograd
 
-实现自动求导也非常的简单啦，我们只需要在tensor初始化的时候给他加一个属性`requires_grad = True`，然后他就会自己记录自己的计算图，等待求导的开始了。
+实现自动求导也非常的简单啦，我们只需要在tensor初始化的时候给他加一个属性`requires_grad = True`，然后他就会自己记录自己的计算图了。
 
 #### 对于一个loss/scalar
 
-我们只需要用一个`loss.backward()`，他就会自己噌噌噌地求导，然后计算过程中的任何需要求导的节点$v$，他的gradient都会被存储在`v.grad`，直接使用即可。
+我们只需要用一个`loss.backward()`，他就会自己噌噌噌地求导，然后计算过程中的任何需要求导的节点$v$，他的gradient都会被存储在`v.grad`，直接调用即可。
 
 #### 对于一个vector/matrix
 
@@ -196,17 +186,21 @@ class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
         # 输入图像channel：1；输出channel：6；5x5卷积核
+
         self.conv1 = nn.Conv2d(1, 6, 5)
         self.conv2 = nn.Conv2d(6, 16, 5)
         # an affine operation: y = Wx + b
+
         self.fc1 = nn.Linear(16 * 5 * 5, 120)
         self.fc2 = nn.Linear(120, 84)
         self.fc3 = nn.Linear(84, 10)
 
     def forward(self, x):
         # 2x2 Max pooling
+
         x = F.max_pool2d(F.relu(self.conv1(x)), (2, 2))
         # 如果是方阵,则可以只使用一个数字进行定义
+
         x = F.max_pool2d(F.relu(self.conv2(x)), 2)
         x = x.view(-1, self.num_flat_features(x))
         x = F.relu(self.fc1(x))
@@ -216,6 +210,7 @@ class Net(nn.Module):
 
     def num_flat_features(self, x):
         size = x.size()[1:]  # 除去批处理维度的其他所有维度
+
         num_features = 1
         for s in size:
             num_features *= s
@@ -225,9 +220,12 @@ net = Net()
 print(net)
 
 # 创建优化器(optimizer）
+
 optimizer = optim.SGD(net.parameters(), lr=0.01)
 # 在训练的迭代中：
+
 optimizer.zero_grad()   # 清零梯度缓存/初始化
+
 output = net(input)
 loss = nn.MSELoss()(y_pred, y_train)
 loss.backward()
@@ -258,12 +256,12 @@ output:
 几种常用的loss：
 
 ```python
-torch.nn.L1Loss(size_average=None, reduce=None, reduction='mean')¶
+torch.nn.L1Loss(size_average=None, reduce=None, reduction='mean')
 
-torch.nn.MSELoss(size_average=None, reduce=None, reduction='mean')¶
+torch.nn.MSELoss(size_average=None, reduce=None, reduction='mean')
 
-torch.nn.CrossEntropyLoss(weight=None, size_average=None, ignore_index=-100, reduce=None, reduction='mean')¶
-
+torch.nn.CrossEntropyLoss(weight=None, size_average=None,
+                ignore_index=-100, reduce=None, reduction='mean')
 ```
 
 #### 优化器
@@ -271,8 +269,9 @@ torch.nn.CrossEntropyLoss(weight=None, size_average=None, ignore_index=-100, red
 几种常用的optimizer：
 
 ```python
-torch.optim.SGD(params, lr=<required parameter>, momentum=0, dampening=0, weight_decay=0, nesterov=False)¶
+torch.optim.SGD(params, lr=<required parameter>, momentum=0,
+                    dampening=0, weight_decay=0, nesterov=False)
 
-torch.optim.Adam(params, lr=0.001, betas=(0.9, 0.999), eps=1e-08, weight_decay=0, amsgrad=False)¶
-
+torch.optim.Adam(params, lr=0.001, betas=(0.9, 0.999),
+                    eps=1e-08, weight_decay=0, amsgrad=False)
 ```
