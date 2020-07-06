@@ -69,9 +69,13 @@ torch.eye(n)
 
 # 均匀采样的一维张量
 
-torch.linspace(start, end, steps) # steps指个数
+# steps指个数
 
-torch.arange(start, end, step)    # step指距离
+torch.linspace(start, end, steps)
+
+# step指距离
+
+torch.arange(start, end, step)
 
 # log刻度均匀的一维张量
 
@@ -80,7 +84,6 @@ torch.logspace(start, end, steps)
 # 从已有数据,共享内存空间
 
 torch.tensor(array)
-
 torch.from_numpy(ndarray)
 
 # 与tensor1相同形状的随机tensor
@@ -94,14 +97,16 @@ torch.randn_like(tensor1, dtype=torch.float)
 
 # 两种运算方法
 
-tensor1 + tensor2       # 赋值给第三者
+# 赋值给第三者
 
-tensor1.add_(tensor2)   # 将2加到1上去
+tensor1 + tensor2
+# 将2加到1上去
+
+tensor1.add_(tensor2)
 
 # 加法与平均
 
 torch.sum(tensor1, dim=0)
-
 torch.mean(tensor1, dim=0)
 
 # 合并
