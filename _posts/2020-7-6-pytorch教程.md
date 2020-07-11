@@ -2,7 +2,7 @@
 layout:     post
 title:      pytorch教程
 subtitle:   The Main Architecture of pytorch
-date:       2020-05-20
+date:       2020-07-06
 author:     翁浩瀚
 catalog: true
 tags:
