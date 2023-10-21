@@ -29,14 +29,14 @@ My research interest mainly focuses on generative models for visual creation, ra
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/consistent123.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Consistent123: Improve Consistency for One Image to 3D Object Synthesis](https://arxiv.org/abs/2310.08092)
 
 **Haohan Weng**, Tianyu Yang, Jianan Wang, Yu Li, Tong Zhang, C. L. Philip Chen, Lei Zhang
 
-[**Project**](https://consistent-123.github.io/) [**Paper**](https://arxiv.org/abs/2310.08092)
+[**Project**](https://consistent-123.github.io/) | [**Paper**](https://arxiv.org/abs/2310.08092)
 
 </div>
 </div>
