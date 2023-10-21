@@ -36,7 +36,7 @@ My research interest mainly focuses on generative models for visual creation, ra
 
 **Haohan Weng**, Tianyu Yang, Jianan Wang, Yu Li, Tong Zhang, C. L. Philip Chen, Lei Zhang
 
-[**Project**](https://consistent-123.github.io/) | [**Paper**](https://arxiv.org/abs/2310.08092)
+[**Project**](https://consistent-123.github.io/) [**Paper**](https://arxiv.org/abs/2310.08092)
 
 </div>
 </div>
