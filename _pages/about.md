@@ -29,6 +29,19 @@ My research interest mainly focuses on generative models for visual creation, ra
 # 📝 Publications 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/pivotmesh.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PivotMesh: Generic 3D Mesh Generation via Pivot Vertices Guidance](https://arxiv.org/abs/2405.16890)
+
+**Haohan Weng**, Yikai Wang, Tong Zhang, C. L. Philip Chen, Jun Zhu
+
+[**Project**](https://whaohan.github.io/pivotmesh) [**Paper**](https://arxiv.org/abs/2405.16890)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2023</div><img src='images/consistent123-2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -68,12 +81,7 @@ My research interest mainly focuses on generative models for visual creation, ra
 - *2023.09 - now*, Master, Computer Science, South China University of Technology. 
 - *2019.09 - 2023.06*, Undergraduate, Computer Science, South China University of Technology.
 
-<!--
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
--->
-
 # 💻 Internships
+- *2023.11 - 2024.05*, ShengShu, supervised by [Yikai Wang](https://yikaiw.github.io/).
 - *2023.04 - 2023.10*, International Digital Economy Academy (IDEA), supervised by [Tianyu Yang](https://tianyu-yang.com).
 - *2022.04 - 2023.03*, Microsoft Research Asia (MSRA), supervised by [Danqing Huang](https://scholar.google.com/citations?user=P55WbwYAAAAJ).
