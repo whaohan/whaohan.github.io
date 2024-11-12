@@ -28,6 +28,19 @@ My research interest mainly focuses on generative models for visual creation, ra
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/bpt.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Scaling Mesh Generation via Compressive Tokenization]()
+
+**Haohan Weng**, Zibo Zhao, Biwen Lei, Xianghui Yang, Jian Liu, Zeqiang Lai, Zhuo Chen, Yuhong Liu, Jie Jiang, Chunchao Guo, Tong Zhang, Shenghua Gao, C. L. Philip Chen
+
+[**Project**](https://whaohan.github.io/bpt) [**Paper**](https://arxiv.org/abs/2411.07025) [**Code**](https://github.com/bpt)
+
+</div>
+</div>
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/pivotmesh.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -36,7 +49,7 @@ My research interest mainly focuses on generative models for visual creation, ra
 
 **Haohan Weng**, Yikai Wang, Tong Zhang, C. L. Philip Chen, Jun Zhu
 
-[**Project**](https://whaohan.github.io/pivotmesh) [**Paper**](https://arxiv.org/abs/2405.16890)
+[**Project**](https://whaohan.github.io/pivotmesh) [**Paper**](https://arxiv.org/abs/2405.16890) [**Code**](https://github.com/pivotmesh)
 
 </div>
 </div>
@@ -74,6 +87,7 @@ My research interest mainly focuses on generative models for visual creation, ra
 - [OneDConv: Generalized convolution for transform-invariant representation](https://arxiv.org/abs/2201.05781), Tong Zhang, **Haohan Weng**, Ke Yi, CL Chen, **Arxiv 2022**
 
 # 🎖 Honors and Awards
+- *2024.10* National Scholarship (Top 1%). 
 - *2022.04* Outstanding Paper Award in MCM/ICM (6/27205). 
 - *2020.10* National Scholarship (Top 1%). 
 
@@ -82,6 +96,7 @@ My research interest mainly focuses on generative models for visual creation, ra
 - *2019.09 - 2023.06*, Undergraduate, Computer Science, South China University of Technology.
 
 # 💻 Internships
-- *2023.11 - 2024.05*, ShengShu, supervised by [Yikai Wang](https://yikaiw.github.io/).
-- *2023.04 - 2023.10*, International Digital Economy Academy (IDEA), supervised by [Tianyu Yang](https://tianyu-yang.com).
-- *2022.04 - 2023.03*, Microsoft Research Asia (MSRA), supervised by [Danqing Huang](https://scholar.google.com/citations?user=P55WbwYAAAAJ).
+- *2024.05 - now*, Tencent Hunyuan, collaborated with [Zibo Zhao](https://maikouuu.github.io/), [Biwen Lei](https://scholar.google.com/citations?user=5d5Y9BoAAAAJ), and [Xianghui Yang](https://wi-sc.github.io/xianghui-yang/).
+- *2023.11 - 2024.05*, ShengShu Tech, collaborated with [Yikai Wang](https://yikaiw.github.io/).
+- *2023.04 - 2023.10*, International Digital Economy Academy (IDEA), collaborated with [Tianyu Yang](https://tianyu-yang.com).
+- *2022.04 - 2023.03*, Microsoft Research Asia (MSRA), collaborated with [Danqing Huang](https://scholar.google.com/citations?user=P55WbwYAAAAJ).
