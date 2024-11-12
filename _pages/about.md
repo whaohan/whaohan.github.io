@@ -96,7 +96,7 @@ My research interest mainly focuses on generative models for visual creation, ra
 - *2019.09 - 2023.06*, Undergraduate, Computer Science, South China University of Technology.
 
 # 💻 Internships
-- *2024.05 - now*, Tencent Hunyuan, collaborated with [Zibo Zhao](https://maikouuu.github.io/), [Biwen Lei](https://scholar.google.com/citations?user=5d5Y9BoAAAAJ), and [Xianghui Yang](https://wi-sc.github.io/xianghui-yang/).
+- *2024.07 - now*, Tencent Hunyuan, collaborated with [Zibo Zhao](https://maikouuu.github.io/), [Biwen Lei](https://scholar.google.com/citations?user=5d5Y9BoAAAAJ), and [Xianghui Yang](https://wi-sc.github.io/xianghui-yang/).
 - *2023.11 - 2024.05*, ShengShu Tech, collaborated with [Yikai Wang](https://yikaiw.github.io/).
 - *2023.04 - 2023.10*, International Digital Economy Academy (IDEA), collaborated with [Tianyu Yang](https://tianyu-yang.com).
 - *2022.04 - 2023.03*, Microsoft Research Asia (MSRA), collaborated with [Danqing Huang](https://scholar.google.com/citations?user=P55WbwYAAAAJ).
