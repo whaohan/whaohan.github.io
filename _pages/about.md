@@ -35,7 +35,7 @@ My research interest mainly focuses on generative models for visual creation, ra
 
 **Haohan Weng**, Zibo Zhao, Biwen Lei, Xianghui Yang, Jian Liu, Zeqiang Lai, Zhuo Chen, Yuhong Liu, Jie Jiang, Chunchao Guo, Tong Zhang, Shenghua Gao, C. L. Philip Chen
 
-[**Project**](https://whaohan.github.io/bpt) [**Paper**](https://arxiv.org/abs/2411.07025) [**Code**](https://github.com/bpt)
+[**Project**](https://whaohan.github.io/bpt) [**Paper**](https://arxiv.org/abs/2411.07025) [**Code**](https://github.com/whaohan/bpt)
 
 </div>
 </div>
