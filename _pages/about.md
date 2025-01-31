@@ -28,10 +28,36 @@ My research interest mainly focuses on generative models for visual creation, ra
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technique Report 2025</div><img src='images/hunyuan3d-2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation](https://arxiv.org/abs/2501.12202)
+
+**Haohan Weng** is one of the contributors of Low-poly Generation
+
+[**Project**](https://3d-models.hunyuan.tencent.com) [**Paper**](https://arxiv.org/abs/2501.12202) [**Code**](https://github.com/Tencent/Hunyuan3D-2) [**Studio**](https://3d.hunyuan.tencent.com/) 
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/nautilus.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Nautilus: Locality-aware Autoencoder for Scalable Mesh Generation](https://arxiv.org/abs/2501.14317)
+
+Yuxuan Wang, Xuanyu Yi, **Haohan Weng**, Qingshan Xu, Xiaokang Wei, Xianghui Yang, Chunchao Guo, Long Chen, Hanwang Zhang
+
+[**Project**](https://nautilusmeshgen.github.io/) [**Paper**](https://arxiv.org/abs/2501.14317)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/bpt.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Scaling Mesh Generation via Compressive Tokenization]()
+[Scaling Mesh Generation via Compressive Tokenization](https://arxiv.org/abs/2411.07025)
 
 **Haohan Weng**, Zibo Zhao, Biwen Lei, Xianghui Yang, Jian Liu, Zeqiang Lai, Zhuo Chen, Yuhong Liu, Jie Jiang, Chunchao Guo, Tong Zhang, Shenghua Gao, C. L. Philip Chen
 
@@ -41,8 +67,7 @@ My research interest mainly focuses on generative models for visual creation, ra
 </div>
 
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/pivotmesh.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/pivotmesh.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PivotMesh: Generic 3D Mesh Generation via Pivot Vertices Guidance](https://arxiv.org/abs/2405.16890)
