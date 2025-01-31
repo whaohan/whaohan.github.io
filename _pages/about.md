@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am currently a Master's student at the South China University of Technology supervised by [C.L. Philip Chen](https://scholar.google.com/citations?user=Q5248zwAAAAJ). Before that, I also got my bachelor's degree from SCUT. 
-My research interest mainly focuses on generative models for visual creation, ranging from 2D images and designs to 3D objects. I have published several papers at top AI conferences and journals, including CVPR, IJCAI and TNNLS.
+My research interest mainly focuses on generative models for visual creation, ranging from 2D images and designs to 3D objects. I have published several papers at top AI conferences and journals, including CVPR, ICLR, IJCAI and TNNLS.
 
 <!--
 # 🔥 News
