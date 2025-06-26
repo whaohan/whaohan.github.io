@@ -43,7 +43,7 @@ My research interest mainly focuses on generative models for visual creation, ra
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='images/bpt.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/bpt.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Scaling Mesh Generation via Compressive Tokenization](https://arxiv.org/abs/2411.07025)
