@@ -100,7 +100,16 @@ My research interest mainly focuses on generative models for visual creation, ra
 </div>
 </div>
 
-- [Learn and Sample Together: Collaborative Generation for Graphic Design Layout](https://www.ijcai.org/proceedings/2023/0649.pdf), **Haohan Weng**, Danqing Huang, Tong Zhang, Chin-Yew Lin, **IJCAI 2023**
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2023</div><img src='images/CALG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Learn and Sample Together: Collaborative Generation for Graphic Design Layout](https://www.ijcai.org/proceedings/2023/0649.pdf)
+
+**Haohan Weng**, Danqing Huang, Tong Zhang, Chin-Yew Lin
+
+</div>
+</div>
 
 - [A Broad Generative Network for Two-Stage Image Outpainting](https://ieeexplore.ieee.org/abstract/document/10130786/), Zongyan Zhang, **Haohan Weng**, Tong Zhang, CL Philip Chen, **TNNLS 2023**
 
