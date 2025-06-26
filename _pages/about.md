@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am currently a Master's student at the South China University of Technology supervised by [C.L. Philip Chen](https://scholar.google.com/citations?user=Q5248zwAAAAJ). Before that, I also got my bachelor's degree from SCUT. 
-My research interest mainly focuses on generative models for visual creation, ranging from 2D images and designs to 3D objects. I have published several papers at top AI conferences and journals, including CVPR, ICLR, IJCAI and TNNLS.
+My research interest mainly focuses on generative models for visual creation, ranging from 2D images and designs to 3D objects. I have published several papers at top AI conferences and journals, including CVPR, ICCV, ICLR, ICML, IJCAI and TNNLS.
 
 <!--
 # 🔥 News
@@ -26,7 +26,9 @@ My research interest mainly focuses on generative models for visual creation, ra
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 -->
 
-# 📝 Publications 
+# 📝 Selected Publications 
+
+## 3D Generation
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technique Report 2025</div><img src='images/hunyuan3d-2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -36,19 +38,6 @@ My research interest mainly focuses on generative models for visual creation, ra
 **Haohan Weng** is one of the contributors of Low-poly Generation
 
 [**Project**](https://3d-models.hunyuan.tencent.com) [**Paper**](https://arxiv.org/abs/2501.12202) [**Code**](https://github.com/Tencent/Hunyuan3D-2) [**Studio**](https://3d.hunyuan.tencent.com/) 
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/nautilus.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Nautilus: Locality-aware Autoencoder for Scalable Mesh Generation](https://arxiv.org/abs/2501.14317)
-
-Yuxuan Wang, Xuanyu Yi, **Haohan Weng**, Qingshan Xu, Xiaokang Wei, Xianghui Yang, Chunchao Guo, Long Chen, Hanwang Zhang
-
-[**Project**](https://nautilusmeshgen.github.io/) [**Paper**](https://arxiv.org/abs/2501.14317)
 
 </div>
 </div>
@@ -92,6 +81,13 @@ Yuxuan Wang, Xuanyu Yi, **Haohan Weng**, Qingshan Xu, Xiaokang Wei, Xianghui Yan
 </div>
 </div>
 
+- [FreeMesh: Boosting Mesh Generation with Coordinates Merging](https://arxiv.org/abs/2505.13573), Jian Liu, **Haohan Weng**, Biwen Lei, Xianghui Yang, Zibo Zhao, Zhuo Chen, Song Guo, Tao Han, Chunchao Guo, **ICML 2025**
+
+- [Nautilus: Locality-aware Autoencoder for Scalable Mesh Generation](https://arxiv.org/abs/2501.14317), Yuxuan Wang, Xuanyu Yi, **Haohan Weng**, Qingshan Xu, Xiaokang Wei, Xianghui Yang, Chunchao Guo, Long Chen, Hanwang Zhang, **ICCV 2025**
+
+
+## 2D Image/Design Generation
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/desigen.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -104,12 +100,12 @@ Yuxuan Wang, Xuanyu Yi, **Haohan Weng**, Qingshan Xu, Xiaokang Wei, Xianghui Yan
 </div>
 </div>
 
-
 - [Learn and Sample Together: Collaborative Generation for Graphic Design Layout](https://www.ijcai.org/proceedings/2023/0649.pdf), **Haohan Weng**, Danqing Huang, Tong Zhang, Chin-Yew Lin, **IJCAI 2023**
 
 - [A Broad Generative Network for Two-Stage Image Outpainting](https://ieeexplore.ieee.org/abstract/document/10130786/), Zongyan Zhang, **Haohan Weng**, Tong Zhang, CL Philip Chen, **TNNLS 2023**
 
-- [OneDConv: Generalized convolution for transform-invariant representation](https://arxiv.org/abs/2201.05781), Tong Zhang, **Haohan Weng**, Ke Yi, CL Chen, **Arxiv 2022**
+- [Self-Prompt Guided Image Outpainting Model for Captions Absence in Social Scenes](https://ieeexplore.ieee.org/abstract/document/10925528/), Zongyan Zhang, CL Philip Chen, **Haohan Weng**, Tong Zhang, **TCSS 2023**
+
 
 # 🎖 Honors and Awards
 - *2024.10* National Scholarship (Top 1%). 
@@ -117,11 +113,11 @@ Yuxuan Wang, Xuanyu Yi, **Haohan Weng**, Qingshan Xu, Xiaokang Wei, Xianghui Yan
 - *2020.10* National Scholarship (Top 1%). 
 
 # 📖 Educations
-- *2023.09 - now*, Master, Computer Science, South China University of Technology. 
+- *2023.09 - 2026.06*, Master, Computer Science, South China University of Technology. 
 - *2019.09 - 2023.06*, Undergraduate, Computer Science, South China University of Technology.
 
 # 💻 Internships
-- *2024.07 - now*, Tencent Hunyuan, collaborated with [Zibo Zhao](https://maikouuu.github.io/), [Biwen Lei](https://scholar.google.com/citations?user=5d5Y9BoAAAAJ), and [Xianghui Yang](https://wi-sc.github.io/xianghui-yang/).
+- *2024.07 - now*, Tencent Hunyuan3D, collaborated with [Zibo Zhao](https://maikouuu.github.io/), [Biwen Lei](https://scholar.google.com/citations?user=5d5Y9BoAAAAJ), and [Xianghui Yang](https://wi-sc.github.io/xianghui-yang/).
 - *2023.11 - 2024.05*, ShengShu Tech, collaborated with [Yikai Wang](https://yikaiw.github.io/).
 - *2023.04 - 2023.10*, International Digital Economy Academy (IDEA), collaborated with [Tianyu Yang](https://tianyu-yang.com).
 - *2022.04 - 2023.03*, Microsoft Research Asia (MSRA), collaborated with [Danqing Huang](https://scholar.google.com/citations?user=P55WbwYAAAAJ).
